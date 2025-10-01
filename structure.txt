@@ -1,0 +1,90 @@
+C:.
+|   .gitignore
+|   eslint.config.js
+|   index.html
+|   package-lock.json
+|   package.json
+|   postcss.config.js
+|   README.md
+|   structure.txt
+|   tailwind.config.js
+|   vite.config.js
+|
++---content
+|   ---posts
+|           advanced-tips.md
+|           designing-user-experiences.md
+|           hello-world.md
+|           javascript-advanced-tips.md
+|           performance-optization.md
+|           react-performance-optimization.md
+|           seo-best-practices.md
+|           the-future-of-web-development.md
+|           web-development.md
+|
++---dist
+|   |   index.html
+|   |   vite.svg
+|   |   _redirects
+|   |
+|   +---admin
+|   |       config.yml
+|   |       index.html
+|   |
+|
++---public
+|   |   vite.svg
+|   |   _redirects
+|   |
+|   +---admin
+|   |       config.yml
+|   |       index.html
+|   |
+|   ---uploads
+|           bobber.png
+|
+---src
+|   App.css
+|   App.jsx
+|   index.css
+|   main.jsx
+|
++---assets
+|       react.svg
+|
++---components
+|   +---blog
+|   |       BlogCard.jsx
+|   |       BlogContent.jsx
+|   |       BlogMeta.jsx
+|   |       Comments.jsx
+|   |       Pagination.jsx
+|   |       RelatedPosts.jsx
+|   |       SearchBar.jsx
+|   |       SocialShare.jsx
+|   |
+|   ---layout
+|           Footer.jsx
+|           Sidebar.jsx
+|           Topbar.jsx
+|
++---context
+|       BlogContext.jsx
+|
++---pages
+|       About.jsx
+|       AdminDashboard.jsx
+|       BlogList.jsx
+|       BlogPost.jsx
+|       Contact.jsx
+|       Home.jsx
+|       SearchResults.jsx
+|       TagPosts.jsx
+|
++---styles
+|       blog.css
+|       globals.css
+|
+---utils
+		dateFormatter.js
+		markdownLoader.js

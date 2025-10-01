@@ -1,0 +1,112 @@
+Folder PATH listing
+Volume serial number is BA4C-A794
+C:.
+|   .gitignore
+|   architect.txt
+|   config.yml
+|   eslint.config.js
+|   index.html
+|   package-lock.json
+|   package.json
+|   polishup.txt
+|   postcss.config.cjs
+|   README.md
+|   structure.txt
+|   structure2.txt
+|   tailwind.config.js
+|   tree.txt
+|   vite.config.js
+|   
++---.netlify
+|   
++---optimizer
+|   |   server.js
+|   |   
+|   +---optimized
+|   +---optimizer
+|   |   \---uploads
+|   |       +---javascript-advanced-tips
+|   |       |       5297078.jpg
+|   |       |       
+|   |       \---mental-health-awareness
+|   |               5297078.jpg
+|   |               
+|   +---scripts
+|   |       optimize-all-local.js
+|   |       
+|   \---uploads
++---public
+|   |   vite.svg
+|   |   _redirects
+|   |   
+|   +---admin
+|   |       config.yml
+|   |       index.html
+|   |       
+|   +---images
+|   |   |   optimized
+|   |   |   
+|   |   \---uploads
+|   \---uploads
+|           bobber.png
+|           
+\---src
+    |   App.css
+    |   App.jsx
+    |   index.css
+    |   main.jsx
+    |   
+    +---assets
+    |       react.svg
+    |       
+    +---components
+    |   +---blog
+    |   |       BlogCard.jsx
+    |   |       BlogContent.jsx
+    |   |       BlogMeta.jsx
+    |   |       Comments.jsx
+    |   |       Pagination.jsx
+    |   |       RelatedPosts.jsx
+    |   |       SearchBar.jsx
+    |   |       SocialShare.jsx
+    |   |       
+    |   +---layout
+    |   |       Footer.jsx
+    |   |       Sidebar.jsx
+    |   |       Topbar.jsx
+    |   |       
+    |   \---optimizer
+    |           ArticleList.jsx
+    |           ArticleSelector.jsx
+    |           Engine.jsx
+    |           FileTree.jsx
+    |           ImageGrid.jsx
+    |           ImageWorkArea.jsx
+    |           LogConsole.jsx
+    |           OutputPanel.jsx
+    |           SettingsPanel.jsx
+    |           
+    +---context
+    |       BlogContext.jsx
+    |       
+    +---pages
+    |       About.jsx
+    |       AdminDashboard.jsx
+    |       BlogList.jsx
+    |       BlogPost.jsx
+    |       Contact.jsx
+    |       Home.jsx
+    |       Optimizer.jsx
+    |       SearchResults.jsx
+    |       TagPosts.jsx
+    |       Uploadbox.jsx
+    |       
+    +---styles
+    |       blog.css
+    |       globals.css
+    |       
+    \---utils
+            dateFormatter.js
+            markdownLoader.js
+            optimizerApi.js
+            

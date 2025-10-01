@@ -1,10 +1,15 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <meta charset="utf-8">
-    <title>Content Manager</title>
+    <meta charset="UTF-8" />
+    <title>ULN CMS</title>
+    <link rel="stylesheet" href="/node_modules/decap-cms/dist/decap-cms.css" />
   </head>
   <body>
-    <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+    <div id="nc-root"></div>
+    <script src="/node_modules/decap-cms/dist/decap-cms.js"></script>
+    <script>
+      window.CMS.init({ config: "/config.yml" });
+    </script>
   </body>
 </html>

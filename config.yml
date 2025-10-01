@@ -1,7 +1,8 @@
 backend:
-  name: github
-  repo: ulnovatech/uln-blog  # Replace with your repo
+  name: git-gateway
   branch: main
+
+local_backend: true
 
 media_folder: "public/uploads"
 public_folder: "/uploads"
@@ -18,10 +19,4 @@ collections:
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Author", name: "author", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
-      - label: "Tags"
-        name: "tags"
-        widget: "list"
-        field:
-          label: "Tag"
-          name: "tag"
-          widget: "string"
+      - { label: "Tags", name: "tags", widget: "list" }
