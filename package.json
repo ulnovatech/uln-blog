@@ -26,5 +26,8 @@
     "rollup": "^4.52.3",
     "tailwindcss": "^4.1.13",
     "vite": "^5.4.8"
+  },
+  "engines": {
+    "node": "20"
   }
 }
