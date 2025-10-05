@@ -1,6 +1,5 @@
 backend:
-  name: github
-  repo: ulnovatech/uln-blog  # Replace with your repo
+  name: git-gateway
   branch: main
 
 media_folder: "public/uploads"
